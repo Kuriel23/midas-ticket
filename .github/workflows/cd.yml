@@ -30,5 +30,5 @@ jobs:
               uses: docker/build-push-action@v4
               with:
                   push: true
-                  tags: kuriel23/bralorant-ticket:latest
+                  tags: kuriel23/midas-ticket:latest
 
