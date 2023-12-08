@@ -7,7 +7,7 @@ module.exports = async (client, message) => {
 			.setCustomId('denuncia')
 			.setLabel('Comprar V-bucks')
 			.setEmoji('1182698390363062304')
-			.setStyle(discord.ButtonStyle.Danger),
+			.setStyle(discord.ButtonStyle.Primary),
 	);
 	const embed = new discord.EmbedBuilder()
 		.setColor(client.cor)
